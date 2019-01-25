@@ -1,0 +1,54 @@
+.logo{
+	text-align:center;
+}
+.maps{
+	text-align:center;
+	margin-top:5%; 
+}
+
+.photos{
+text-align:center;
+}
+
+
+.photo1{
+	height:	200px; 
+	width:200px;
+	-webkit-transform:scale(1);
+	transform:scale(1);
+	-webkit-transition:.3s ease-in-out; 
+	transition: .3s ease-in-out; 
+}
+
+.photo:hover {
+	-webkit-transform:scale(1.3); 
+	transform:sacle(1.3); 
+}
+
+.photo{
+	height:	200px; 
+	width:200px;
+}
+.photo2{
+	width:200px;
+	height:200px;
+	
+
+
+}
+.photo3{
+	width:200px;
+	height:200px;
+		
+
+}
+
+.matable{
+	width:100%;
+	margin-top:50px;
+	margin-left:70px;
+}
+
+.body{
+	font-family:arial, sans-serif;
+}

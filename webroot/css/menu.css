@@ -1,0 +1,107 @@
+.betonescrime{
+    width:100%; 
+    margin:0px; 
+}
+
+body{
+    font-family:'Source code pro', Calibri, serif; 
+    margin:0px; 
+    padding:0px; 
+}
+
+nav>ul{
+    margin:0px; 
+    padding:0px; 
+}
+
+nav>ul>li{
+    float:left; 
+    position: relative;
+}
+
+nav li{
+    list-style-type: none; 
+}
+
+.submenu{
+    display:none; 
+}
+
+nav{
+    text-align: center;
+    width: 100%; 
+    background-color:#424558;
+}
+
+nav>ul::after{
+    content:"";
+    display: block; 
+    clear: both; 
+    background-color: #424558;
+}
+
+nav a{
+    display: inline-block; 
+    text-decoration:none;
+}
+
+nav>ul>li>a{
+    padding:20px 30px; 
+    color:#FFF;
+}
+
+nav li:hover .submenu{
+    display: inline-block; 
+    position: absolute; 
+    top: 100%; 
+    left: 0px; 
+    padding: 0px; 
+    z-index: 100000; 
+    background-color: #424558;
+}
+
+.submenu li{
+    border-bottom : 1px solid #CCC; 
+}
+
+.submenu li a {
+    padding: 15px 30px; 
+    font-size: 13px; 
+    color: #222538;
+    width: 270px; 
+}
+
+.menu-accueil:hover{
+    border-top: 5px solid grey; 
+    background-color: RGBa(194,194,194,0.15);
+}
+
+.menu-club:hover{
+    border-top: 5px solid grey; 
+    background-color: RGBa(194,194,194,0.15);
+}
+
+.menu-partenaires:hover{
+    border-top: 5px solid grey; 
+    background-color: RGBa(194,194,194,0.15);
+}
+
+.menu-sponsors:hover{
+    border-top: 5px solid grey; 
+    background-color: RGBa(194,194,194,0.15);
+}
+
+nav>ul>li:hover a{
+    padding: 15px 30 px 20px 30px; 
+    color: white;
+}
+
+.submenu li:hover a{
+    font-weight: bold; 
+}
+
+
+#footer {
+    background-color: #424558;
+}
+
