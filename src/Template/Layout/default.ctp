@@ -22,7 +22,7 @@
                             <li><a href="http://localhost/paraderiposte/posts/index">Actualit&#233;s</a></li>
                             <li><a href="http://localhost/paraderiposte/calendrier/index">Calendrier</a></li>
                             <li><a href="http://localhost/paraderiposte/Resultats/index">R&#233;sultats</a></li>
-                            <li><a href="inscription.html">Inscription</a></li>
+                            <li><a href="http://localhost/paraderiposte/Pratiques/index">Pratique</a></li>
                         </ul>
                     </li>
                     <li class="menu-club"><a href="club.html">Clubs</a>
